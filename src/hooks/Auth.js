@@ -12,7 +12,7 @@ export const AuthProvider = ({children}) => {
         if(token && user){
             api.defaults.headers.authorization = `Bearer ${token}`
             return {token, user: JSON.parse(user)};
-            console.log("oi augusto")
+           
         }
 
         return {};

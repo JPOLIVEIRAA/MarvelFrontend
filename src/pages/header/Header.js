@@ -16,7 +16,7 @@ function Header(){
         <AreaHeader>
         <div className="container">
             <div className="logo">
-                <img src="../../assets/marvel.jpg"/>     
+                <img src="../../assets/marvel.jpg" alt="img"/>     
             </div>
             <header>
                 <nav>
